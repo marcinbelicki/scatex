@@ -1,8 +1,8 @@
 package pl.belicki.scatex.document.documentclass
 
-trait FontSize {
-  def texContent: String
-}
+import pl.belicki.scatex.util.Content
+
+trait FontSize extends Content
 
 object FontSize {
   case object TenPt extends FontSize {

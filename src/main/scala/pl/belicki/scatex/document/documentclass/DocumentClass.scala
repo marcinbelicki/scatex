@@ -1,7 +1,11 @@
 package pl.belicki.scatex.document.documentclass
 
-trait DocumentClass {
+import pl.belicki.scatex.util.Content
+
+trait DocumentClass extends Content {
   def fontSize: FontSize
+  def paperSize: PaperSize
+  def 
 }
 
 
